@@ -211,3 +211,45 @@ body{
     font-size: 1rem;
     color: #737070;
 }
+/* sponsors area styles  */
+.sponsors-text {
+    padding-top:80px;
+    text-align: center;
+    margin: 0 auto;
+    width: 542px;
+    margin-bottom: 80px;
+}
+
+#sponsors {
+    margin-top: 50px;
+}
+
+.sponsors-title {
+    font-size: 2.8rem;
+    margin: 10px;
+    color: #424242
+    font-weight: 700;
+}
+
+.sponsors-p {
+    color: #737070
+    font-size: 1.1rem;
+}
+.sponsors-svg {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+
+.sponsors-svg img {
+    width: 150px;
+    filter: grayscale(100%);
+    margin-bottom: 50px;
+}
+/* footer area style  */
+.footer-area{
+    background:wheat;
+    text-align: center;
+    padding: 20px ;
+    margin-bottom: 30px;
+}
