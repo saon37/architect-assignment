@@ -65,9 +65,11 @@ body{
     margin-bottom: 10px;
  }
  .about-details{
+    color: #424242;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 20px;
+    line-height: 1.6;
  }
  .btn{
     background-color: #FF900E;
@@ -80,3 +82,42 @@ body{
  .about-image img{
     width: 100%;
  }
+  /* feature area design  */
+  .features{
+    display: flex;
+  }
+  .feature-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+  .feature-image img{
+    width: 342px;
+    /* height: 342px; */
+  }
+  .feature-text{
+    width:540px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 200px 100px;
+  }
+  .feature-title{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .feature-first-span{
+    color: #737070;
+  }
+  .feature-second-span{
+    color:#131313;
+  }
+  .feature-third-span{
+    color: #FF900E;
+  }
+  .feature-details{
+    color: #737070;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
